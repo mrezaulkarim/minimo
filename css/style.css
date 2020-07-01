@@ -151,3 +151,38 @@ body {
 }
 
 */
+/* Start Footer Section 
+.footer_bg {
+	background: #f0f0f0;
+	padding: 20px 0;
+}
+.footer_left {
+	float: left;
+	width: 250px;
+}
+span {
+	padding-left: 15px;
+}
+.footer_right {
+	float: right;
+	width: 150px;
+}
+.footer_right p {
+	display: inline;
+	float: left;
+}
+.footer_menu {
+	float: right;
+}
+.footer_menu ul li {
+	list-style-type: none;
+}
+.footer_menu ul li a {
+	color: #626262;
+	padding: 0 5px;
+}
+
+.footer_menu ul li a:link i:hover {
+	font-size: 25px;
+}
+*/
