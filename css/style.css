@@ -9,7 +9,6 @@
 body {
 	 font-family: 'Playfair Display', serif;
 	 color: #626262;
-	 font-size: 16px;
 }
 /* Start Header Section */
  header {
@@ -84,7 +83,7 @@ body {
 	font-weight: 400;
 }
 .paragraph {
-	font-size: 14px;
+	font-size: 16px;
 	text-align: justify;
 	line-height: 150%;
 	margin-bottom: 40px;
@@ -93,16 +92,16 @@ body {
 .blog_section {
 	padding: 60px 0;
 }
-.row {
+.single {
 	width: 47%;
 	float: left;
 	margin-bottom: 50px;
 }
-.row img {
+.single img {
 	width: 100%;
 	margin-bottom: 20px;
 }
-.row:nth-child(even) {
+.single:nth-child(even) {
 	margin-left: 6%;
 }
 .newsletter_bg {
@@ -137,6 +136,9 @@ body {
 	padding-right: 45px;
 
 }
+.s_form input:focus {
+	outline: 0;
+}
 .s_form button {
 	position: absolute;
 	background: transparent;
@@ -144,6 +146,9 @@ body {
 	cursor: pointer;
 	top: 15px;
 	right: 0;
+}
+.s_form button:focus {
+	outline: 0;
 }
 .s_form button img {}
 
